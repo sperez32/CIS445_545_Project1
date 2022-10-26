@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+h1{
+    background-image:url(gray.jpg);
+    margin-top: 0;
+    padding: 59px;
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+h1,h2{
+    color:white;
+}
+h2{
+    padding-left: 100px;
+    text-decoration: underline;
+}
+
+#right{
+    float:right;
+    width: auto;  
+height: 155px;  
+}
+#left{
+    float:left;
+    width: auto;  
+height: 155px;  
+}
