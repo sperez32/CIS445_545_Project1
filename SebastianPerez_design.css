@@ -9,7 +9,7 @@ body{
     background-size: cover;
   
 }
-h1{
+.topHeader{
     background-image:url(gray.jpg);
     margin-top: 0;
     padding: 59px;
@@ -18,13 +18,46 @@ h1{
     background-repeat: no-repeat;
     
 }
-h1,h2{
+.spacing{
+    padding-top: 100px;
+    padding-left: 175px;
+}
+.spaceParagraph{
+    padding-top: 15px;
+    padding-left: 175px;
+}
+h1,h2,p{
     color:white;
+    padding-left: 175px;
 }
-h2{
-    padding-left: 100px;
-    text-decoration: underline;
-}
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    margin-top: 155px;
+    padding: 0;
+    width: 125px;
+    position:fixed;
+    height: 100%;
+    overflow:visible;
+  }
+  
+  li a {
+    display:block;
+    color: rgb(255, 255, 255);
+    padding: 8px 4px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #767676;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
 
 #right{
     float:right;
@@ -33,6 +66,6 @@ height: 155px;
 }
 #left{
     float:left;
-    width: auto;  
+    width: 125px;  
 height: 155px;  
 }
