@@ -16,7 +16,6 @@ body{
     text-align: center;
     background-size:cover;
     background-repeat: no-repeat;
-    
 }
 .spacing{
     padding-top: 100px;
@@ -27,10 +26,23 @@ body{
     padding-left: 175px;
     font-size:x-large;
 }
+.spacing2{
+    padding-bottom: 0px;
+    padding-left: 175px;
+}
+.spacing3{
+    padding-top: 275px;
+    padding-left: 175px;
+}
+
 h1,h2,p{
     color:white;
     padding-left: 175px;
 }
+   #subBullet{
+    list-style-type: circle;
+    margin-left: 1.5em;
+   }
 #object{
     height: 250px;
     width: 250px;
@@ -44,7 +56,126 @@ h1,h2,p{
     width: 250px;
     margin: 50px;
     float: left;
+}
+#object2{
+    padding-left: 125px;
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+    float: left;
+}
+#object3{
+    padding-left: 125px;
+    margin-top: 100px;
+    height: 250px;
+    width: 250px;
+    float: left;
+    overflow-y: hidden;
+}
+#object4{
+    padding-left: 250px;
+    height: 250px;
+    width: auto;
+    padding-top: 100px;
+    overflow-y: hidden;
+}
+#object5{
+    height: 250px;
+    width: auto;
+    padding-left: 700px;
+    overflow-y: hidden; 
+}
+#object6{
+    height: 250px;
+    width: auto;
+    padding-left: 200px;
+    overflow-y: hidden;
     
+}
+#object7{
+    position:absolute;
+    height: 250px;
+    width: auto;
+    right: 1000px;
+    top: 250px;
+    
+    
+}
+
+#object8{
+    position:absolute;
+    height: 250px;
+    width: auto;
+    right: 200px;
+    top: 250px;
+    
+    
+}
+
+#object9{
+    position:absolute;
+    height: 250px;
+    width: auto;
+    right: 1000px;
+    top: 600px;
+
+}
+#object10{
+    position:absolute;
+    height: 200px;
+    width: auto;
+    right: 200px;
+    top: 1050px;
+
+}
+#object11{
+    position:absolute;
+    height: 250px;
+    width: auto;
+    right: 1400px;
+    top: 1025px;
+
+}
+#object12{
+    position:absolute;
+    height: 400px;
+    width: auto;
+    right: 300px;
+    top: 325px;
+
+}
+#object13{
+    position:absolute;
+    height: 300px;
+    width: auto;
+    right: 1425px;
+    top: 300px;
+    cursor: pointer;
+
+}
+#object14{
+    position:absolute;
+    height: 300px;
+    width: auto;
+    right: 850px;
+    top: 300px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+#list1{
+    font-size:x-large;
+    color: white;
+    list-style-type: circle;
+    line-height: 30px;
+    width: 500px;
+    padding-left: 200px;
+    margin-top: 20px;
+    overflow-y:auto;
 }
 
 
