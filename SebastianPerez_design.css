@@ -26,6 +26,12 @@ body{
     padding-left: 175px;
     font-size:x-large;
 }
+.spaceParagraph2{
+    padding-top: 15px;
+    padding-left: 175px;
+    padding-right: 400px;
+    font-size:x-large;
+}
 .spacing2{
     padding-bottom: 0px;
     padding-left: 175px;
@@ -96,8 +102,8 @@ h1,h2,p{
     position:absolute;
     height: 250px;
     width: auto;
-    right: 1000px;
-    top: 250px;
+    right:550px;
+    top: 700px;
     
     
 }
@@ -161,6 +167,15 @@ h1,h2,p{
     top: 300px;
     cursor: pointer;
 
+}
+#object15{
+    position:absolute;
+    height: 250px;
+    width: auto;
+    right: 150px;
+    top: 250px;
+    
+    
 }
 
 

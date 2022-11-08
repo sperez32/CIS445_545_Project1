@@ -6,3 +6,4 @@ Commit 5: Added more pictures; added Values and Beliefs, Career Aspirations, and
 
 Project 1:
 Commit 1: "added remaining file pages, Communications.html, Showcases.html, etc."
+Commit 2: added numerous different images that are used in Communications, Qualifications, and Achievements html files; Communications, qualifications,and achievement files are completed as well
